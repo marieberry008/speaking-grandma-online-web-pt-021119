@@ -1,13 +1,13 @@
 def speak_to_grandma(phrase)  
 
-input_phrase = "I LOVE YOU GRANDMA!"
+phrase = "I LOVE YOU GRANDMA!"
 
   if (phrase == phrase.upcase) == false
     puts "HUH?! SPEAK UP, SONNY!" 
-  end
-  else 
+  elsif (phrase == phrase.upcase) == true
     puts "NO, NOT SINCE 1938!"
   end
+  
 end
 
 dog = "cuddly"
